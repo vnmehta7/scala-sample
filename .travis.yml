@@ -7,8 +7,5 @@ dist: trusty
 addons:
   sonarqube:
     organization: "sonarsource"
-     token:
-          secure: "84bed7b577acc5f9b3e4933e8d268847434b60b5"
 script:
   - mvn clean test
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -DskipTests
