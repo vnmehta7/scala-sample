@@ -5,7 +5,7 @@
 
     <groupId>com.samples</groupId>
     <artifactId>scala-sample</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <modules>
         <module>scala-rest-api-akka-http</module>
     </modules>
